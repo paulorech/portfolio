@@ -1,0 +1,84 @@
+[
+	{
+        "id":"0",
+		"project_name": "Battleship",
+        "description": "After choosing the place you want to hit and clicking fire, the game shows if it is a hit or miss. The goal is to sink three battleships by guessing its location",
+        "technologies": ["Javascript", "html","css"],
+        "live_link": "https://paulorech.github.io/battleship",
+        "github_link": "https://github.com/paulorech/battleship",
+        "image_urls": ["/images/battle.png","/images/battle2.png","/images/battle3.png"]
+	},
+	{
+        "id":"1",
+		"project_name": "Quote Generator",
+        "description": "This page generates a random famous quote every time a button is clicked",
+        "technologies": ["Javascript","html", "css","Template Literals"],
+        "live_link": "https://paulorech.github.io/randomQuotes",
+        "github_link": "https://github.com/paulorech/randomQuotes",
+        "image_urls": ["/images/randquote2.png","/images/randquote3.png"]
+	},
+	{
+        "id":"2",
+		"project_name": "BMI",
+        "description": "Calculates your Body Mass Index according to your weight and height",
+        "technologies": ["Javascript","Node","BodyParser","PUG","Express"],
+        "live_link": "https://paulorech.github.io/bmi",
+        "github_link": "https://github.com/paulorech/bmi",
+        "image_urls": ["/images/bmi.png", "/images/bmi2.png", "/images/bmi3.png"]
+    },
+    {
+        "id": "3",
+        "project_name": "Projects Portfolio",
+        "description": "Personal Portfolio of Projects",
+        "technologies": ["Node.js","Express","PUG","Javascript","html","css"],
+        "live_link": "https://paulorech.github.io/portfolio",
+        "github_link": "https://github.com/paulorech/portfolio",
+        "image_urls": ["/images/portfolio.jpg", "/images/portfolio2.jpg"]
+    },
+    {
+        "id": "4",
+        "project_name": "Awesome Random Jokes",
+        "description": "Random Jokes got from an external API and implemented with jQuery and AJAX",
+        "technologies": ["jQuery","AJAX","Javascript","html","css"],
+        "live_link": "https://paulorech.github.io/randomjokes",
+        "github_link": "https://github.com/paulorech/randomjokes",
+        "image_urls": ["/images/randomjokesAPI.jpg",  "/images/randomjokesAPIXHR.jpg"]
+    },
+    {
+        "id": "5",
+        "project_name": "Pagination",
+        "description": "Create a function that creates and appends functioning pagination links.",
+        "technologies": ["Javascript","JSON","html","css"],
+        "live_link": "https://paulorech.github.io/pagination",
+        "github_link": "https://github.com/paulorech/pagination",
+        "image_urls": ["/images/pagination.jpg",  "/images/pagination2.jpg"]
+    },
+    {
+        "id": "6",
+        "project_name": "Planets",
+        "description": "Using JavaScript and/or jQuery, I created an employee directory by communicating with a third-party API. For this project, I have built a web app for a fictional company and I used the Random User Generator API (https://randomuser.me/) to grab employee information.",
+        "technologies": ["Javascript","jQuery","Ajax", "html","css"],
+        "live_link": "https://paulorech.github.io/planets",
+        "github_link": "https://github.com/paulorech/planets",
+        "image_urls": ["/images/planets.png",  "/images/planets2.png"]
+    },
+    {
+        "id": "7",
+        "project_name": "Employee Directory",
+        "description": "Using JavaScript and/or jQuery, I created an employee directory by communicating with a third-party API. For this project, I have built a web app for a fictional company and I used the Random User Generator API (https://randomuser.me/) to grab employee information.",
+        "technologies": ["Javascript","jQuery","Ajax", "html","css"],
+        "live_link": "https://paulorech.github.io/employeedirectory",
+        "github_link": "https://github.com/paulorech/employeedirectory",
+        "image_urls": ["/images/employeed.png", "/images/employeed2.png"]
+    },
+    {
+        "id": "8",
+        "project_name": "Confetti Cuisine",
+        "description": "Website connected with Node, Express and Pug",
+        "technologies": ["Javascript","Node","Express","Pug", "html","css"],
+        "live_link": "https://paulorech.github.io/confetti",
+        "github_link": "https://github.com/paulorech/confetti",
+        "image_urls": ["/images/confetti.png",  "/images/confetti1.png", "/images/confetti2.png"]
+    }
+
+]

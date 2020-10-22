@@ -1,0 +1,61 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Add your name.
+        h1=name
+
+        //- Feel free personalize the title below
+        p.lead.text-light
+          | #{aboveName}
+
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+          p
+            | During the past 2 years, I've spent an incredible amount of time learning and practicing computer programming, algorithms and data structures, problem-solving and building and launching applications.
+            br
+            br
+            | Burnaby based Full Stack Developer, (Mobile App Developer & Web Developer), Software Developer with a Post Baccaularate Degree in Computer Science. I have found much enjoyment and excitement from coding with JavaScript, React, and PHP and my dream is to create mobile or web applications that will improve people's lives.
+            br
+            br
+            | I work well in fast-paced environments and I am a quick and adaptable learner. I strongly believe in lifetime learning and during my career, I am constantly learning about new technologies and how to write better code.
+            br
+            br
+            | Expertise in using IDE tools such as Eclipse, Visual Studio, Visual Studio Code, Notepad ++ and Android Studio.
+            | Involved in writing application level code to interact with APIs, RESTful Web Services using AJAX, JSON.
+            | Experience in developing web pages using HTML/HTML5, XML, CSS/CSS3, JavaScript, React JS, jQuery, JSON, Node.js, Ajax, JQUERY Bootstrap.
+            | Experience in using React JS components, Forms, Events, Keys, Router.
+            | Experience in Node environment using Node.js, NPM, Express JS
+            | Experience in Android Development with Java and Kotlin. 
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+        ul
+          li React
+          li Express
+          li Pug
+          li Body-parser
+          li JavaScript
+          li jQuery
+          li Node
+          
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          li=tel
+          li=email
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href=linkedIn target="_blank") LinkedIn
+        a.button.expanded(href=gitHub target="_blank") GitHub
+        a.button.expanded(href=facebook target="_blank") Facebook
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  
