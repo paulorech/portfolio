@@ -34,12 +34,9 @@ app.get('/layout', (req, res) => {
 //About page
 app.get('/about', (req, res) => {
     let name = "Paulo Gustavo Rech";
-    let tel = "(236) 865-5300";
-    let email = "rech.paulog@gmail.com";
     let linkedIn = "https://www.linkedin.com/in/paulo-gustavo-rech/";
     let gitHub = "https://github.com/paulorech";
-    let facebook = "https://www.facebook.com/paulo.rech";
-    res.render('about', { name: name, linkedIn: linkedIn, gitHub: gitHub, facebook: facebook, tel: tel, email: email });
+    res.render('about', { name: name, linkedIn: linkedIn, gitHub: gitHub});
 });
 
 
